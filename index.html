@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Analise</title>
+</head>
+
+<body>
+    <section>
+        <div class="fundo">
+            <div id="inputname">
+                <form action="" data-form>
+                    <input name="name_form" data-input id="nome" type="text" placeholder="Digite Seu Nome">
+                    <input type="submit" data-btn value="Enviar" id="submit1">
+                </form>
+            </div>
+
+            <h1 id="tittle1">Para que funcione com maior eficiência use fone e feche os olhos.</h1>
+            <div class="box">
+                <audio src="/Audio.mp3" id='audiovf' controls autoplay></audio>
+                <div class="txts1">
+                    <h1 id="trade1">Aguarde</h1>
+
+                </div>
+                <div id="questoes">
+                    <div id="questions1">
+                        <input type="checkbox" name="clara" id="clara"> CLARA<br>
+                        <input type="checkbox" name="escura" id="escura"> ESCURA <br>
+                        <input type="button" onclick="enviar()" value="Enviar">
+                    </div>
+
+                    <div id="questions2">
+                        <input type="checkbox" name="Amigavel" id="amigavel"> Amigavel<br>
+                        <input type="checkbox" name="Raivoso" id="raivoso"> Raivoso <br>
+                        <input type="button" onclick="enviar2()" value="Enviar">
+                    </div>
+                    <div id="questions3">
+                        <input type="checkbox" name="levo" id="levo"> Levo<br>
+                        <input type="checkbox" name="naolevo" id="naolevo"> Não Levo <br>
+                        <input type="button" onclick="enviar3()" value="Enviar">
+                    </div>
+                    <div id="questions4">
+                        <input type="checkbox" name="ouro" id="ouro"> Ouro<br>
+                        <input type="checkbox" name="barro" id="barro"> Barro<br>
+                        <input type="checkbox" name="porcelana" id="porcelana">Porcelana <br>
+                        <input type="button" onclick="enviar4()" value="Enviar">
+                    </div>
+                    <div id="questions5">
+                        <input type="checkbox" name="levo" id="levo"> Levo<br>
+                        <input type="checkbox" name="naolevo" id="naolevo"> Não Levo <br>
+                        <input type="button" onclick="enviar5()" value="Enviar">
+                    </div>
+                    <div id="questions6">
+                        <input type="checkbox" name="claro" id="claro"> Claro<br>
+                        <input type="checkbox" name="turvo" id="turvo"> Turvo <br>
+                        <input type="button" onclick="enviar6()" value="Enviar">
+                    </div>
+                    <div id="questions7">
+                        <input type="checkbox" name="entro" id="entro">Entro<br>
+                        <input type="checkbox" name="naoentro" id="naoentro"> Não Entro<br>
+                        <input type="button" onclick="enviar7()" value="Enviar">
+                    </div>
+                    <div id="questions8">
+                        <input type="checkbox" name="pedra" id="pedra"> Pedra<br>
+                        <input type="checkbox" name="concreto" id="concreto"> Concreto<br>
+                        <input type="checkbox" name="cercaviva" id="cercaviva">Cerca Viva <br>
+                        <input type="button" onclick="enviar8()" value="Enviar">
+                    </div>
+                    <div id="questions9">
+                        <input type="checkbox" name="atravesso" id="atravesso"> Atravesso<br>
+                        <input type="checkbox" name="naoatravesso" id="naoatravesso"> Não Atravesso <br>
+                        <input type="button" onclick="enviar9()" value="Enviar">
+                    </div>
+                </div>
+                <div id="resposta">
+                    <h1 data-message>NOME</h1>
+                    <h2 id="floresta"></h2>
+                    <h2 id="cachorro"></h2>
+                    <h2 id="cachorro2"></h2>
+                    <h2 id="jarro"></h2>
+                    <h2 id="jarro2"></h2>
+                    <h2 id="lago"></h2>
+                    <h2 id="lago2"></h2>
+                    <h2 id="muro"></h2>
+                    <h2 id="muro2"></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

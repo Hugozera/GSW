@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+    body{ 
+        background: no-repeat;
+        background-size: 170em;
+        background-image: url(/cinza.jpg.crdownload); 
+        font-size: 10px;
+}
+    .fundo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        /* padding-top: 10px; */
+        text-align: center;
+        /* margin: 87px; */
+        min-width: 350px;
+        min-height: 500px;
+        background-color: rgba(0, 0, 0, 0.073);
+    }
+    .box{
+
+        margin: 40px;
+        min-height: 25em;
+        background-color: rgba(255, 255, 255, 0.737);
+    }
+    .button{
+        border-radius: 5px;
+        height: 52px;
+        width: 50px;
+        padding: 0px 1px 0px 1px;
+        transition: background-color 6.5s ease;
+    }
+    
+    .button:hover{
+        height: 54px;
+        width: 54px; 
+       background-color: green;
+       
+    }
+    .txts input{
+        background-color: rgba(77, 67, 87, 0.168);
+    }
+
+    .esconder{
+        display: none;
+    }
+
+   input{
+    margin: 0%;
+    border-radius: 10px;
+   }
+   
+
+    #questions1 { 
+        display: none;
+    }
+
+    #questions2 {
+        display: none;
+    }
+    #questions3 { 
+        display: none;
+    }
+
+    #questions4 {
+        display: none;
+    }
+    #questions5 {
+        display: none;
+    }
+    
+    #questions6 {
+        display: none;
+    }
+    #questions7 {
+        display: none;
+    }
+    #questions8 {
+        display: none;
+    }
+    #questions9 {
+        display: none;
+    }
+    #resposta {
+        display: none;
+    }
+    #tittle1 {
+        display: none;
+    }
+    #audiovf{
+
+        position: relative;
+        display: none;
+    }
+    #trade1 {
+      
+        display: none;
+    }
+
+    @media screen and (max-width:480px){
+  
+    body{
+        max-width: 480;
+        font-size: 1.0em;
+    } 
+    .fundo{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        padding-top: 10px;
+        text-align: center;
+        margin: 87px;
+        min-width: 350px;
+        min-height: 500px;
+        background-color: rgba(0, 0, 0, 0.073);
+    }
+    .box{
+        margin: 40px;
+        min-height: 25em;
+        background-color: red;
+    }
+    .txts{
+        margin: 40px
+    ;
+        background-color: blueviolet;
+    }
+    
+}
